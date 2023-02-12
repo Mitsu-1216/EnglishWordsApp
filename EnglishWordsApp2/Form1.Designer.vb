@@ -29,13 +29,13 @@ Partial Class Form1
         Me.BackButton = New System.Windows.Forms.Button()
         Me.TextBoxAnswer = New System.Windows.Forms.TextBox()
         Me.EnglishAnswer = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.correctAnswer = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'answer
         '
-        Me.answer.Location = New System.Drawing.Point(127, 249)
+        Me.answer.Font = New System.Drawing.Font("UD デジタル 教科書体 NK-B", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.answer.Location = New System.Drawing.Point(74, 256)
         Me.answer.Margin = New System.Windows.Forms.Padding(4)
         Me.answer.Name = "answer"
         Me.answer.Size = New System.Drawing.Size(177, 71)
@@ -46,26 +46,30 @@ Partial Class Form1
         'EnglishProblem
         '
         Me.EnglishProblem.AutoSize = True
-        Me.EnglishProblem.Font = New System.Drawing.Font("MS UI Gothic", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.EnglishProblem.Location = New System.Drawing.Point(115, 139)
+        Me.EnglishProblem.Font = New System.Drawing.Font("UD デジタル 教科書体 NK-B", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.EnglishProblem.Location = New System.Drawing.Point(55, 117)
         Me.EnglishProblem.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.EnglishProblem.Name = "EnglishProblem"
-        Me.EnglishProblem.Size = New System.Drawing.Size(181, 72)
+        Me.EnglishProblem.Size = New System.Drawing.Size(294, 111)
         Me.EnglishProblem.TabIndex = 1
         Me.EnglishProblem.Text = "リンゴ"
         '
         'problemNumber
         '
         Me.problemNumber.AutoSize = True
-        Me.problemNumber.Location = New System.Drawing.Point(52, 54)
+        Me.problemNumber.Font = New System.Drawing.Font("UD デジタル 教科書体 NK-B", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.problemNumber.ForeColor = System.Drawing.SystemColors.Highlight
+        Me.problemNumber.Location = New System.Drawing.Point(67, 57)
         Me.problemNumber.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.problemNumber.Name = "problemNumber"
-        Me.problemNumber.Size = New System.Drawing.Size(0, 21)
+        Me.problemNumber.Size = New System.Drawing.Size(104, 37)
         Me.problemNumber.TabIndex = 2
+        Me.problemNumber.Text = "第１問"
         '
         'NextButton
         '
-        Me.NextButton.Location = New System.Drawing.Point(598, 358)
+        Me.NextButton.Font = New System.Drawing.Font("UD デジタル 教科書体 NK-B", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.NextButton.Location = New System.Drawing.Point(584, 358)
         Me.NextButton.Margin = New System.Windows.Forms.Padding(4)
         Me.NextButton.Name = "NextButton"
         Me.NextButton.Size = New System.Drawing.Size(273, 124)
@@ -75,7 +79,8 @@ Partial Class Form1
         '
         'BackButton
         '
-        Me.BackButton.Location = New System.Drawing.Point(56, 358)
+        Me.BackButton.Font = New System.Drawing.Font("UD デジタル 教科書体 NK-B", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.BackButton.Location = New System.Drawing.Point(76, 358)
         Me.BackButton.Margin = New System.Windows.Forms.Padding(4)
         Me.BackButton.Name = "BackButton"
         Me.BackButton.Size = New System.Drawing.Size(273, 124)
@@ -86,6 +91,7 @@ Partial Class Form1
         'TextBoxAnswer
         '
         Me.TextBoxAnswer.BackColor = System.Drawing.SystemColors.Info
+        Me.TextBoxAnswer.Font = New System.Drawing.Font("UD デジタル 教科書体 NK-B", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.TextBoxAnswer.Location = New System.Drawing.Point(598, 139)
         Me.TextBoxAnswer.Multiline = True
         Me.TextBoxAnswer.Name = "TextBoxAnswer"
@@ -95,28 +101,22 @@ Partial Class Form1
         'EnglishAnswer
         '
         Me.EnglishAnswer.AutoSize = True
-        Me.EnglishAnswer.Location = New System.Drawing.Point(493, 274)
+        Me.EnglishAnswer.Font = New System.Drawing.Font("UD デジタル 教科書体 NK-B", 26.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.EnglishAnswer.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.EnglishAnswer.Location = New System.Drawing.Point(390, 255)
         Me.EnglishAnswer.Name = "EnglishAnswer"
-        Me.EnglishAnswer.Size = New System.Drawing.Size(63, 21)
+        Me.EnglishAnswer.Size = New System.Drawing.Size(175, 60)
         Me.EnglishAnswer.TabIndex = 6
         Me.EnglishAnswer.Text = "apple"
         Me.EnglishAnswer.Visible = False
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(0, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(75, 21)
-        Me.Label1.TabIndex = 7
-        Me.Label1.Text = "Label1"
-        '
         'correctAnswer
         '
         Me.correctAnswer.AutoSize = True
-        Me.correctAnswer.Location = New System.Drawing.Point(704, 284)
+        Me.correctAnswer.Font = New System.Drawing.Font("UD デジタル 教科書体 NK-B", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.correctAnswer.Location = New System.Drawing.Point(733, 244)
         Me.correctAnswer.Name = "correctAnswer"
-        Me.correctAnswer.Size = New System.Drawing.Size(0, 21)
+        Me.correctAnswer.Size = New System.Drawing.Size(0, 83)
         Me.correctAnswer.TabIndex = 8
         '
         'Form1
@@ -125,7 +125,6 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(960, 525)
         Me.Controls.Add(Me.correctAnswer)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.EnglishAnswer)
         Me.Controls.Add(Me.TextBoxAnswer)
         Me.Controls.Add(Me.BackButton)
@@ -151,6 +150,5 @@ Partial Class Form1
     Friend WithEvents BackButton As Button
     Friend WithEvents TextBoxAnswer As TextBox
     Friend WithEvents EnglishAnswer As Label
-    Friend WithEvents Label1 As Label
     Friend WithEvents correctAnswer As Label
 End Class

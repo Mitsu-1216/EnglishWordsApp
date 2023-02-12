@@ -4,7 +4,9 @@
     Dim EnglishAnswerWords() As String = {"apple", "school", "pencil", "desk", "bag", "book", "room", "cup", "chair", "head"}
     Dim i As Integer = 0
 
-    'BackButton.enabled = True
+    Private Sub problemNumber_Click(sender As Object, e As EventArgs) Handles MyBase.Load
+        problemNumber.Text = "第" + (i + 1).ToString + "門"
+    End Sub
 
     Private Sub NextButton_Click(sender As Object, e As EventArgs) Handles NextButton.Click
         i = i + 1
@@ -52,12 +54,11 @@
         EnglishAnswer.Visible = True
         If TextBoxAnswer.Text = EnglishAnswerWords(i) Then
             correctAnswer.Text = "〇"
+            correctAnswer.ForeColor = Color.Blue
         Else
             correctAnswer.Text = "×"
+            correctAnswer.ForeColor = Color.Red
         End If
     End Sub
 
-    Private Sub problemNumber_Click(sender As Object, e As EventArgs) Handles MyBase.Load
-        problemNumber.Text = "第" + (i + 1).ToString + "門"
-    End Sub
 End Class
