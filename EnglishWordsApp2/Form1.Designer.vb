@@ -50,7 +50,7 @@ Partial Class Form1
         Me.EnglishProblem.Location = New System.Drawing.Point(55, 117)
         Me.EnglishProblem.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.EnglishProblem.Name = "EnglishProblem"
-        Me.EnglishProblem.Size = New System.Drawing.Size(294, 111)
+        Me.EnglishProblem.Size = New System.Drawing.Size(196, 74)
         Me.EnglishProblem.TabIndex = 1
         Me.EnglishProblem.Text = "リンゴ"
         '
@@ -62,7 +62,7 @@ Partial Class Form1
         Me.problemNumber.Location = New System.Drawing.Point(67, 57)
         Me.problemNumber.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.problemNumber.Name = "problemNumber"
-        Me.problemNumber.Size = New System.Drawing.Size(104, 37)
+        Me.problemNumber.Size = New System.Drawing.Size(72, 25)
         Me.problemNumber.TabIndex = 2
         Me.problemNumber.Text = "第１問"
         '
@@ -105,7 +105,7 @@ Partial Class Form1
         Me.EnglishAnswer.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.EnglishAnswer.Location = New System.Drawing.Point(390, 255)
         Me.EnglishAnswer.Name = "EnglishAnswer"
-        Me.EnglishAnswer.Size = New System.Drawing.Size(175, 60)
+        Me.EnglishAnswer.Size = New System.Drawing.Size(119, 41)
         Me.EnglishAnswer.TabIndex = 6
         Me.EnglishAnswer.Text = "apple"
         Me.EnglishAnswer.Visible = False
@@ -116,12 +116,12 @@ Partial Class Form1
         Me.correctAnswer.Font = New System.Drawing.Font("UD デジタル 教科書体 NK-B", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.correctAnswer.Location = New System.Drawing.Point(733, 244)
         Me.correctAnswer.Name = "correctAnswer"
-        Me.correctAnswer.Size = New System.Drawing.Size(0, 83)
+        Me.correctAnswer.Size = New System.Drawing.Size(0, 55)
         Me.correctAnswer.TabIndex = 8
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 21.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 14.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(960, 525)
         Me.Controls.Add(Me.correctAnswer)
@@ -136,7 +136,7 @@ Partial Class Form1
         Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Form1"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show
-        Me.Text = "answer1"
+        Me.Text = "EnglishWordsApp"
         Me.TopMost = True
         Me.ResumeLayout(False)
         Me.PerformLayout()
