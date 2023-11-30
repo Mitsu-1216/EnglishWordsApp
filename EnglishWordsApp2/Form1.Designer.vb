@@ -69,23 +69,23 @@ Partial Class Form1
         'NextButton
         '
         Me.NextButton.Font = New System.Drawing.Font("UD デジタル 教科書体 NK-B", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.NextButton.Location = New System.Drawing.Point(584, 358)
+        Me.NextButton.Location = New System.Drawing.Point(477, 390)
         Me.NextButton.Margin = New System.Windows.Forms.Padding(4)
         Me.NextButton.Name = "NextButton"
-        Me.NextButton.Size = New System.Drawing.Size(273, 124)
+        Me.NextButton.Size = New System.Drawing.Size(182, 82)
         Me.NextButton.TabIndex = 3
-        Me.NextButton.Text = "次の問題"
+        Me.NextButton.Text = "次の問題👉"
         Me.NextButton.UseVisualStyleBackColor = True
         '
         'BackButton
         '
         Me.BackButton.Font = New System.Drawing.Font("UD デジタル 教科書体 NK-B", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
-        Me.BackButton.Location = New System.Drawing.Point(76, 358)
+        Me.BackButton.Location = New System.Drawing.Point(236, 390)
         Me.BackButton.Margin = New System.Windows.Forms.Padding(4)
         Me.BackButton.Name = "BackButton"
-        Me.BackButton.Size = New System.Drawing.Size(273, 124)
+        Me.BackButton.Size = New System.Drawing.Size(182, 82)
         Me.BackButton.TabIndex = 4
-        Me.BackButton.Text = "前の問題"
+        Me.BackButton.Text = "👈前の問題"
         Me.BackButton.UseVisualStyleBackColor = True
         '
         'TextBoxAnswer
