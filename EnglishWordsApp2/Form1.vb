@@ -29,7 +29,7 @@
             count = count - 1
             EnglishProblem.Text = EnglishProblemWords(count)
         End If
-        problemNumber.Text = "第" + (count - 1).ToString + "門"
+        problemNumber.Text = "第" + (count + 1).ToString + "門"
         If count = 0 Then
             BackButton.Enabled = False
         End If
