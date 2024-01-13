@@ -3,10 +3,11 @@
     Dim EnglishAnswerWords() As String = {"apple", "school", "pencil", "desk", "bag", "book", "room", "cup", "chair", "head"}
     Dim count As Integer = 0
 
-    Private Sub problemNumber_Click(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub problemNumber_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         problemNumber.Text = "第" + (count + 1).ToString + "門"
     End Sub
 
+    '次の問題ボタン
     Private Sub NextButton_Click(sender As Object, e As EventArgs) Handles NextButton.Click
         count = count + 1
         EnglishProblem.Text = EnglishProblemWords(count)
@@ -24,6 +25,7 @@
 
     End Sub
 
+    '前の問題ボタン
     Private Sub BackButton_Click(sender As Object, e As EventArgs) Handles BackButton.Click
         If count > 0 Then
             count = count - 1
@@ -48,7 +50,7 @@
         End If
     End Sub
 
-    '次の問題
+    '答えボタン
     Private Sub answer_Click(sender As Object, e As EventArgs) Handles answer.Click
         EnglishAnswer.Visible = True
         If TextBoxAnswer.Text = EnglishAnswerWords(count) Then
